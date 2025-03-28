@@ -18,6 +18,8 @@
     - Send a message to staff (if chat is enabled)
     - Send a Discord embed (if enabled)
     - Log the action to file (if enabled)
+  
+![image](https://github.com/user-attachments/assets/87bbcede-b7c0-4ab6-998b-e42ddf0b6b8b)
 
   If the whitelist does **not** contain the spawner type (and **ALL** isn't set), the event is silently ignored.
 
