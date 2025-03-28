@@ -1,0 +1,23 @@
+################################################################################
+#                                SpawnerAlerts                                #
+#                                                                             #
+# This configuration file controls what happens when a player breaks a        #
+# spawner. You can choose where the alerts go: in chat, on Discord, or both.  #
+# You can also enable logging to a file for auditing purposes.                #
+###############################################################################
+
+spawner-alerts:
+  chat: true             # Send an alert in chat to players with the notify permission
+  discord: false          # Send an alert to Discord using a webhook embed (async, it does not run on the main server thread)
+  log-to-file: true      # Log all spawner breaks to logs.txt
+
+# Webhook URL used for Discord alerts.
+# You can get this from your Discord channel > Edit Channel > Integrations > Webhooks
+discord-webhook-url: "https://discord.com/api/webhooks/..."
+
+# Only show alerts for the following spawner types.
+# Use "ALL" to allow alerts for every type.
+whitelist:
+  - ZOMBIE
+  - SKELETON
+  - ENDERMAN

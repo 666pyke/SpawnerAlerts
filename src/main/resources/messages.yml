@@ -1,0 +1,25 @@
+################################################################################
+#                              SpawnerAlerts Messages                          #
+#                   Customize how alerts and commands look below              #
+################################################################################
+
+spawner-break:
+  chat-message: "&c⚠ %player% &7has broken a &e%mob% spawner&7!"
+  discord:
+    title: "🚨 Spawner Broken!"
+    description: "**%player%** broke a **%mob%** spawner in **%world%** at **X: %x%, Y: %y%, Z: %z%**."
+    color: 14423100
+  log-format: "[%time%] %player% broke a %mob% spawner in %world% at (%x%, %y%, %z%)"
+
+command-help:
+  - "&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+  - "&6⚙ SpawnerAlerts &7(v1.0) &8| &d666pyke"
+  - ""
+  - "&e📜 Available Commands:"
+  - "&7/spawneralerts reload &8- &fReloads the plugin's config and messages"
+  - ""
+  - "&7More features coming soon... 👀"
+  - "&8&m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+reload-message: "&a✅ SpawnerAlerts config, messages, and webhook settings reloaded!"
+
